@@ -1,4 +1,4 @@
-FROM node:4.4-onbuild
+FROM node:6-onbuild
 EXPOSE 1207
 RUN npm install -g forever
 RUN echo "Asia/Shanghai" > /etc/timezone
